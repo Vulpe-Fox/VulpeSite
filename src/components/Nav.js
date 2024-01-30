@@ -1,9 +1,7 @@
-import React, { useLayoutEffect, useState } from 'react';
+import React from 'react';
 
-import { Toc } from '@mui/icons-material';
+//import { Toc } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-
-import OutsideClick from './OutsideClick';
 
 import tailBite from '../assets/tailBite.png';
 
@@ -11,13 +9,14 @@ import '../styles/Nav.css';
 
 function Nav() {
 
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  //const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggleNav = () => {
+  /*const toggleNav = () => {
     setDropdownOpen(!dropdownOpen);
-  }
+  }*/
+  
+  /*const [size, setSize] = useState([0, 0]);
 
-  const [size, setSize] = useState([0, 0]);
   useLayoutEffect(() => {
     function updateSize() {
       setSize([window.innerWidth, window.innerHeight]);
@@ -28,32 +27,35 @@ function Nav() {
     window.addEventListener('resize', updateSize);
     updateSize();
     return () => window.removeEventListener('resize', updateSize);
-  }, []);
+  }, []);*/
+  /*id={dropdownOpen ? "open" : "close"}*/
+  /*<button onClick={toggleNav}>
+          <Toc />
+        </button> */
 
   return (
     <div className='nav'>
-      <div className='vulpeLogo' id={dropdownOpen ? "open" : "close"}>
+      <div className='vulpeLogo'>
         <Link to="/"> 
-          <img src={tailBite}/>
+          <img src={tailBite} alt=""/>
         </Link>
         <div className='hiddenLinks'>
+          <Link to="/"> Home </Link>
           <Link to="/about"> About </Link>
           <Link to="https://www.twitch.tv/vulpefox"> Channel </Link>
-          <Link to="/projects"> Projects </Link>
-          <Link to="/connect"> Connect </Link>
+          {/*<Link to="/projects"> Projects </Link>
+          <Link to="/connect"> Connect </Link>*/}
         </div>
       </div>
       <div className='dropdowns'>
+          <Link to="/"> Home </Link>
         <Link to="/about"> About </Link>
         <Link to="https://www.twitch.tv/vulpefox"> Channel </Link>
-        <Link to="/projects"> Projects </Link>
-        <Link to="/connect"> Connect </Link>
-        <button onClick={toggleNav}>
-          <Toc />
-        </button>
+        {/*<Link to="/projects"> Projects </Link>
+        <Link to="/connect"> Connect </Link>*/}
       </div>
     </div>
   )
 }
 
-export default OutsideClick(Nav);
+export default Nav;

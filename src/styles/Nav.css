@@ -72,9 +72,6 @@
     .nav .dropdowns a {
       width: 70px;
     }
-    /*.nav .vulpeLogo {
-      padding-left: 50px;
-    }*/
   }
   
   @media only screen and (max-width: 600px) {
@@ -89,6 +86,16 @@
   
     .nav .dropdowns button {
       display: inherit;
+    }
+
+    .hiddenLinks {
+    font-family: Helvetica, sans-serif;
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+      
     }
   }
   
