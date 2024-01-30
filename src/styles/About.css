@@ -2,10 +2,10 @@
   background: black;
 }
 
-.home {
+.home1 {
   padding: 0px;
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   display: inline-block;
   justify-content: center;
   align-items: center;

@@ -8,7 +8,7 @@ import '../styles/About.css';
 function About() {
   return (
     <div className="base">
-      <div className="home" style={{ backgroundImage: `url(${Image1})` }}>
+      <div className="home1" style={{ backgroundImage: `url(${Image1})` }}>
         <div className="headerContainer">
         </div>
       </div>
