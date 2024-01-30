@@ -11,7 +11,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    padding-left: 150px;
+    padding-left: 150px auto;
   }
   
   .nav .vulpeLogo img {
@@ -24,7 +24,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
   }
   
   .nav a {
@@ -57,7 +57,7 @@
   
   .nav #open .hiddenLinks {
     display: inherit;
-    margin-left: 30px;
+    margin-left: -50px;
   }
   
   .nav #close .hiddenLinks {
@@ -72,9 +72,9 @@
     .nav .dropdowns a {
       width: 70px;
     }
-    .nav .vulpeLogo {
+    /*.nav .vulpeLogo {
       padding-left: 50px;
-    }
+    }*/
   }
   
   @media only screen and (max-width: 600px) {
