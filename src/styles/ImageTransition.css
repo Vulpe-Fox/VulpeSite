@@ -1,0 +1,11 @@
+.image-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;;
+    overflow: hidden;
+}
+
+.image {
+    height: 50%;
+    opacity: 1;
+}
