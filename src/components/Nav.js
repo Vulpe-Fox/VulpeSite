@@ -42,7 +42,7 @@ function Nav() {
         <div className='hiddenLinks'>
           <Link to="/"> Home </Link>
           <Link to="/about"> About </Link>
-          {/*<Link to="/projects"> Projects </Link>*/}
+          <Link to="/projects"> Projects </Link>
           {/*<Link to="/connect"> Connect </Link>*/}
           <Link to="https://www.twitch.tv/vulpefoxy"> Channel </Link>
         </div>
@@ -50,7 +50,7 @@ function Nav() {
       <div className='dropdowns'>
           <Link to="/"> Home </Link>
         <Link to="/about"> About </Link>
-        {/*<Link to="/projects"> Projects </Link>*/}
+        <Link to="/projects"> Projects </Link>
         <Link to="https://www.twitch.tv/vulpefoxy"> Channel </Link>
         {/*<Link to="/connect"> Connect </Link>*/}
       </div>

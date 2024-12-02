@@ -16,7 +16,7 @@ function Home() {
         <body>Staying wholesome* since 2023</body>
       </div>
       <div className="twitchContainer">
-        <TwitchPlayer channel="vulpefoxy" id="woof" height="45vh" width="35vw" />
+        <TwitchPlayer channel="vulpefoxy" id="woof" height="45vh" width="50%" />
         <TwitchChat channel="vulpefoxy" id="woof1" />
       </div>
     </div>

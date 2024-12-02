@@ -13,7 +13,6 @@
 
 .headerContainer {
   flex: 50%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,12 +54,11 @@
 
 .twitchContainer {
   flex: 40%;
-  height: 100vh;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: row;
-  margin-right: 1vw;
+  margin-right: 5%;
   height: auto;
 }
 
@@ -71,4 +69,32 @@
   height: 45vh;
   width: 15vw;
   padding-top: 5vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .headerContainer {
+    flex: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .twitchContainer {
+    width: 100%;
+  }
+
+  .twitchContainer #woof {
+    padding-top: 5vh;
+    width: 100%;
+  }
+  .twitchContainer #woof1 {
+    display: none;
+  }
 }

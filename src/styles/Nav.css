@@ -55,15 +55,6 @@
     display: inherit;
   }
   
-  .nav #open .hiddenLinks {
-    display: inherit;
-    margin-left: -50px;
-  }
-  
-  .nav #close .hiddenLinks {
-    display: none;
-  }
-  
   .nav #open a {
     width: 70px;
     margin: 5px;
@@ -75,13 +66,19 @@
   }
   
   @media only screen and (max-width: 600px) {
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 4px;
+    }
+
     .nav .dropdowns a {
       display: none;
     }
   
     .nav .dropdowns {
       justify-content: flex-end;
-      padding-right: 50px;
+      padding-right: 0px;
     }
   
     .nav .dropdowns button {
@@ -95,7 +92,6 @@
     display: flex;
     align-items: center;
     justify-content: right;
-      
     }
   }
   
