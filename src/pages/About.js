@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Image1 from '../assets/vulpecold.png';
-import Image2 from '../assets/vulpemoon.png';
-import Image3 from '../assets/vulperef.png';
+import Image1 from '../assets/vulpecold.jpg';
+import Image2 from '../assets/vulpemoon.jpg';
+import Image3 from '../assets/vulperef.jpg';
 import '../styles/About.css';
 
 function About() {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import HappyVulp from '../assets/forrogue.png';
-import HomeImage from '../assets/sky.png';
+import HomeImage from '../assets/sky.jpg';
 
 import { TwitchPlayer, TwitchChat } from 'react-twitch-embed';
 
@@ -16,8 +16,8 @@ function Home() {
         <body>Staying wholesome* since 2023</body>
       </div>
       <div className="twitchContainer">
-        <TwitchPlayer channel="vulpefox" id="woof" height="45vh" width="35vw" />
-        <TwitchChat channel="vulpefox" id="woof1" />
+        <TwitchPlayer channel="vulpefoxy" id="woof" height="45vh" width="35vw" />
+        <TwitchChat channel="vulpefoxy" id="woof1" />
       </div>
     </div>
   );
