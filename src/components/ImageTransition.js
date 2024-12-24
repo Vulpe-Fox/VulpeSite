@@ -38,8 +38,6 @@ const ImageTransition = (pageSize, imageArray) => {
             )
     })
 
-    console.log(images);
-
     return (
         <div className={`image-container`}>
             {images}
