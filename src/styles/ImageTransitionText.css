@@ -1,0 +1,31 @@
+.bulk-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.image-container {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.text-container p {
+    color: rgb(255, 255, 255);
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-size: 60px;
+}
+
+.image {
+    height: 50%;
+    opacity: 1;
+}

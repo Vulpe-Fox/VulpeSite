@@ -1,12 +1,25 @@
 import React from 'react';
 
-// test comment for commit
 //import FbxViewer from '../components/FBXViewer'
-import ImageTransition from '../components/ImageTransition';
+//import ImageTransition from '../components/ImageTransition';
+import ImageTransitionText from '../components/ImageTransitionText';
 
 import HappyVulp from '../assets/forrogue.png';
 
 import '../styles/Projects.css';
+
+const images = [
+  HappyVulp,
+  HappyVulp, 
+  HappyVulp, 
+  HappyVulp
+]
+const textBlocks = [
+  "ayo",
+  "aya",
+  "awoo",
+  "ono"
+]
 
 function Projects() {
   /*<FbxViewer modelPath="../assets/models/tail.fbx" />*/
@@ -19,7 +32,8 @@ function Projects() {
         height: `${pageSizeFactor*100}vh` 
       }}
     >
-      {ImageTransition(pageSizeFactor, [HappyVulp, HappyVulp, HappyVulp, HappyVulp])}
+      {/*ImageTransition(pageSizeFactor, images)*/}
+      {ImageTransitionText(pageSizeFactor, images, textBlocks)}
     </div>
   )
 }
