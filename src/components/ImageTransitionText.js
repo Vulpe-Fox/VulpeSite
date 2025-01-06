@@ -34,7 +34,7 @@ const ImageTransition = (pageSize, imageArray, textArray) => {
                 <div 
                     className="image-container"
                     style={{ 
-                        opacity: `${(-focusRange*focusRange/maxFocusHeightSquare+1)*100}%`,
+                        opacity: `${(-focusRange*focusRange/maxFocusHeightSquare+1)*100+5}%`,
                         backgroundImage: `url(${element})`,
                         height: `${imageHeight}%`,
                         backgroundPosition: imageAlignment

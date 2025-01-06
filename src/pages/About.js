@@ -28,7 +28,6 @@ function About() {
       </div>
       <div className="home3" style={{ backgroundImage: `url(${Image3})` }}>
         <div className="aboutContainer" id="third">
-          <h1>Here is the ref of how I look ^w^</h1>
         </div>
       </div>
     </div>

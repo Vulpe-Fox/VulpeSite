@@ -86,7 +86,7 @@
 }
 
 #second body {
-  background: -webkit-linear-gradient(45deg, rgb(169, 235, 170), rgb(176, 123, 0));
+  background: -webkit-linear-gradient(45deg, rgb(169, 235, 170), rgb(243, 176, 245));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
